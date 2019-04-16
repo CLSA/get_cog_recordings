@@ -1,0 +1,5 @@
+# sample curl config file
+url = "https://dcs-mcgill.clsa-elcv.ca:8443/ws/datasource/<SOURCE>/table/<TABLE>/valueSet/<UID>/variable/<VAR>/value <UID>/<VAR>.wav"
+output = "<UID>/<VAR>.wav"
+-H "Authorization:X-Opal-Auth `echo -n "patrick:PASSWORD" | base64`"
+-H "Accept: application/json"

@@ -1,0 +1,6 @@
+url = "https://dcs-mcgill.clsa-elcv.ca:8443/ws/datasource/cedar/view/recordings"
+--header "Authorization:X-Opal-Auth cGF0cmljazplbGVwaGFudCBhcnJvd3M="
+--header "Accept: application/json"
+--header "Content-Type: application/json"
+--request "PUT"
+--insecure
